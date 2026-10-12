@@ -228,17 +228,3 @@ If you use this project or the PhreshPhish dataset, please cite:
   eprint  = {2507.10854}
 }
 ```
-
----
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=3B82F6&vCenter=true&width=500&lines=Acknowledgements" alt="Acknowledgements"/>
-
-- [PhreshPhish dataset](https://huggingface.co/datasets/phreshphish/phreshphish) by OpenText / the original authors
-- Hugging Face `datasets` & `transformers`
-- Gradio team
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=4000&pause=1200&color=3B82F6&center=true&vCenter=true&width=600&lines=Built+for+real-world+phishing+defense;Low+FP+%E2%80%A2+High+Precision+%E2%80%A2+Production-ready" alt="Footer"/>
-</p>
