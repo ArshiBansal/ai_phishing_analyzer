@@ -1,0 +1,122 @@
+# .gitignore
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+profile_default/
+ipython_config.py
+
+# Data & models (do not commit large files)
+data/raw/
+data/processed/
+data/models/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Keep empty directory markers
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/models/.gitkeep
+!data/models/ml/.gitkeep
+!data/models/dl/.gitkeep
+!reports/.gitkeep
+
+# Logs & temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# gradio
+.gradio/secrets.toml
+.gradio/config.toml
+
+# Project-specific
+reports/*.pdf
+reports/*.html
+reports/*.png
+reports/*.svg
+!reports/.gitkeep
+docs/_build/
